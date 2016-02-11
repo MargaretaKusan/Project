@@ -19,7 +19,7 @@ Installation instructions:
  1. Download or clone this repository.
  2. Compile and install matconvnet library (matconvnet-1.0-beta17) using Installation instructions http://www.vlfeat.org/matconvnet/install/#compiling
  3. Compile face detector in /vgg_face_matconvnet/+lib/+face_detector/@dpmCascadeDetector using make
- 4. Download the pretrained CNN from google drive repository: [URL] and place it into PATH/vgg_face_matconvnet/data/ 
+ 4. Download the pretrained CNN from google drive repository: https://drive.google.com/file/d/0Bz32r86_Cd1TVVZ2OFowYmtqck0/view?usp=sharing and place it into PATH/vgg_face_matconvnet/data/ 
 
  At the moment of writing this, vgg_face_matconvnet implementation of face detection does not include mex files for Windows, only Mac and Linux. If you have to run it on Windows, you can use another face detector implementation that works on Windows. 
 
